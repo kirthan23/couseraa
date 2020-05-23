@@ -1,0 +1,246 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: "Comic Sans MS",cursive,sans-serif;
+		
+}
+#header-nav
+{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+
+}
+#logo-img{
+	background: url("jkj.jpg") no-repeat;
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	margin: 5px 10px 5px 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: helvetica;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222; 
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+header{
+	background-color: yellow;
+
+}
+ /***home page***/
+ #menu-tile,#specials-tile,#map-tile{
+ 	height: 250px;
+ 	width: 100%;
+ 	margin-bottom: 15px;
+ 	position: relative;
+ 	border: 2px solid #3F0C1F;
+ 	overflow: hidden;
+ }
+ #menu-tile:hover,#specials-tile:hover,#map-tile:hover{
+ 	box-shadow: 0 1px 5px 1px #cccccc;
+ 	text-decoration: none;
+ }
+#menu-tile{
+ 	background-image: url("kkk.jpg") no-repeat;
+ 	background-position: center;
+ }
+#specials-tile{
+ 	background-image: url("jkj.jpg") no-repeat;
+ 	background-position: center;
+ }
+#menu-tile span,#specials-tile span,#map-tile span 
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+/*****menu-categories****/
+.category-tile{
+	position: relative;
+	border:2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+.category-title:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div{
+	margin-bottom: 50px;
+}
+
+/*******single-category*****/
+.menu-item-title{
+	margin-bottom: 25px;
+}
+.menu-item-title{
+width: 80%;
+}
+.menu-item-title .menu-item-price{
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: -15px;
+}
+.menu-item-title .menu-item-price span{
+	font-size: .6em;
+}
+.menu-item-photo{
+	position: relative;
+	border:2px solid #3F0C1F;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.menu-item-photo div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: #557c3e;
+	text-align: center;
+
+}
+.menu-item-description{
+	padding-right: 30px;
+
+}
+h3.menu-item-title{
+	margin: 0 0 10px;
+}
+.menu-item-details{
+	font-size: .9em;
+	font-style: italic;
+}
+
+
+
+
+/*******footer*******/
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+
+}
+#hours,#address{
+	line-height: 2;
+
+}
+#hours > span,#address > span{
+		font-size: 1.3em;
+
+}
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+
+}
+#testimonials{
+	font-style: italic;
+	padding-left: 25px;
+}
+#testimonials	p:nth-child(2){
+	margin-top: 25px;
+
+}
+
+
+@media(min-width: 1200px){
+	.jumbo{
+		background-image: url('jjj.jpg') no-repeat;
+		height: 500px;
+		width: 1200px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+
+	}
+}
+@media(min-width: 992px) and (max-width:1199px)
+
+
+/*****<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu-categories.html">
+								<span class="glyphicon glyphicon-cuttlery"></span><br class="hidden=xs">Menu
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden=xs">About
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-certificate"></span><br class="hidden=xs">Awards
+							</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:410-604-9942">
+								<span>410-604-9942</span>
+							</a>
+							<div>We Deliver</div>
+						</li>
+
+					</ul>*********/
